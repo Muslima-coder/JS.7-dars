@@ -4,8 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>7-dars</title>
+    <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body class="body">
+
+    <div class="section hof-section">
+        <h2 class="section-title">Higher Order Function — bu boshqa funksiyalarni parametr sifatida qabul qiladigan yoki funksiya qaytaradigan funksiyadir.</h2>
+        <strong class="section-strong">Ularga: CallBack function, Compare function, Pridicate function</strong>
+    </div>
+
+    <div class="section map-section">
+        <strong class="section-strong">Map methodi</strong>
+        <p class="section-text">map() — massivning har bir elementiga callback function ni qo'llaydi va yangi massiv qaytaradi.</p>
+        <p class="section-text">Callback function 3 ta argument oladi: item, index, array</p>
+        <p class="section-text">Asl massiv o'zgarmaydi.</p>
+        <p class="section-text">Har bir element ustida amal bajaradi va natijasini yangi massivga joylaydi.</p>
+    </div>
+
+    <div class="section foreach-section">
+        <strong class="section-strong">ForEach methodi</strong>
+        <p class="section-text">forEach() — massivning har bir elementiga callback function ni qo'llaydi.</p>
+        <p class="section-text">Callback function 3 ta argument oladi: item, index, array</p>
+        <p class="section-text">Asosan konsolga chiqarish, DOM elementlarga o'zgartirish kabi ishlar uchun ishlatiladi.</p>
+    </div>
+
+    <div class="section filter-section">
+        <strong class="section-strong">Boshqa foydali metodlar</strong>
+        <p class="section-text"><strong>filter()</strong> — Berilgan shartni bajargan elementlarni yangi array qilib qaytaradi.</p>
+        <p class="section-text"><strong>find()</strong> — Shartni birinchi bajargan elementni o‘zini qaytaradi.</p>
+        <p class="section-text"><strong>findIndex()</strong> — Shartni birinchi bajargan elementning indexini qaytaradi.</p>
+        <p class="section-text"><strong>sort()</strong> — Array elementlarini tartiblaydi (son, alfavit). Number uchun (a - b), matn uchun localeCompare ishlatiladi.</p>
+        <p class="section-text"><strong>some()</strong> — Kamida 1 ta element shartni bajarsa true qaytaradi. (true/false)</p>
+        <p class="section-text"><strong>every()</strong> — Barcha elementlar shartni bajarsa true qaytaradi. (true/false)</p>
+    </div>
+
     <script src="./js/main.js"></script>
 </body>
 </html>

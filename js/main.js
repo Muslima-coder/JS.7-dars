@@ -152,18 +152,16 @@
   
 //3-misol
 // let son = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// let yigindi = 0;
 
-// function misol2(array) {
-//     let summa = 0;
-//     array.map((item, index) => {
-//         if (index % 2 === 0) {
-//             summa += item;
-//         }
-//     });
-//     return summa;
-// }
+// son.forEach(i => {
+//   if (i % 2 === 0) {
+//     yigindi += i;
+//   }
+// });
 
-// console.log(misol2(son));  
+// console.log(yigindi);
+
 
 //4-misol
 // const numbers2 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
